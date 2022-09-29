@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width initial scale = 1.0 user-scalable = no"
+    />
+    <title>Suduko</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="App.js"></script>
+  </head>
+  <body>
+    <h1>Sudoko</h1>
+    <hr />
+    <!-- <img id="fit" src="./sudoku-background.jpg"><hr> -->
+    <div id="instructions">
+      <details>
+        <h3>What is Sudoku and what are the rules of this game?</h3>
+        <p>
+          Sudoku is a popular logic puzzle with numbers. Its rules are quite
+          simple, so even beginners can handle the simple levels.
+        </p>
+        <h3>What are the basic rules of Sudoku?</h3>
+        <!-- List-Instructions -->
+        <ul style="list-style: square">
+          <li>Sudoku grid consists of 9x9 spaces.</li>
+          <li>You can use only numbers from 1 to 9.</li>
+          <li>Each 3×3 block can only contain numbers from 1 to 9.</li>
+          <li>Each vertical column can only contain numbers from 1 to 9.</li>
+          <li>
+            Each number in the 3×3 block, vertical column or horizontal row can
+            be used only once.
+          </li>
+          <li>
+            The game is over when the whole Sudoku grid is correctly filled with
+            numbers.
+          </li>
+          <li>
+            While playing the game no of errors will be counted, so please
+            re-confirm before entering the input
+          </li>
+          <li>****Don't forget to start the timer.****</li>
+        </ul>
+        <hr />
+      </details>
+    </div>
+
+    <!-- Timer -->
+    <div id="timer">00:00:00</div>
+    <div class="button">
+      <button id="start" onclick="start()">Start</button>
+      <button id="reset" onclick="reset()">Reset</button>
+    </div>
+
+    <!-- 9*9 Boards -->
+    <h2 id="errors">No. of Errors: 0</h2>
+
+    <div id="board"></div>
+    <br />
+    <div id="digits"></div>
+  </body>
+</html>
+
 
