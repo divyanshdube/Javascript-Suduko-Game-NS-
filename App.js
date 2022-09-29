@@ -57,7 +57,7 @@ function setGame() {
         tile.classList.add("horizontal-line");
       }
 
-      if (c == 2 || c == 5) {
+      if (c == 3 || c == 6) {
         tile.classList.add("vertical-line");
       }
 
