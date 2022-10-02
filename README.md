@@ -1,6 +1,6 @@
 # HTML-CSS-Javascript project-Sudoko:-
 **************************************************************************
-Copy url to visit:  https://comforting-mochi-c86ee1.netlify.app/
+Click url to visit:  https://comforting-mochi-c86ee1.netlify.app/
 **************************************************************************
 
 *****************
